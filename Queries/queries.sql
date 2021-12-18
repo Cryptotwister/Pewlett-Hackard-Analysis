@@ -162,7 +162,7 @@ INTO manager_info
 FROM dept_manager AS dm
     INNER JOIN departments AS d
         ON (dm.dept_no = d.dept_no)
-    INNER JOIN current_emp AS ce
+    INNER JOIN current_emp AS cegit
         ON (dm.emp_no = ce.emp_no);
 		
 -----------------------------------
