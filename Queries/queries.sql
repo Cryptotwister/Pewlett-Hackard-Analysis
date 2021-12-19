@@ -92,7 +92,7 @@ FROM current_emp
 -----------------------------------
 
 -- Employee count by department number
-SELECT COUNT(ce.emp_no), de.dept_no
+SELECT de.dept_no AS Department, COUNT(ce.emp_no) AS ppl
 FROM current_emp as ce
 LEFT JOIN dept_emp as de
 ON ce.emp_no = de.emp_no
@@ -162,12 +162,13 @@ INTO manager_info
 FROM dept_manager AS dm
     INNER JOIN departments AS d
         ON (dm.dept_no = d.dept_no)
-    INNER JOIN current_emp AS cegit
+    INNER JOIN current_emp AS ce
         ON (dm.emp_no = ce.emp_no);
 		
 -----------------------------------
 -- List 3: Department Retirees --
 
+-- List of retirees by department
 SELECT ce.emp_no,
 	ce.first_name,
 	ce.last_name,
@@ -178,3 +179,18 @@ INNER JOIN dept_emp AS de
 ON (ce.emp_no = de.emp_no)
 INNER JOIN departments AS d
 ON (de.dept_no = d.dept_no);
+
+-- List of retirees in SALES department
+SELECT *
+FROM dept_info
+WHERE dept_name = 'Sales'
+ORDER BY last_name
+;
+
+-- List of retirees in SALES & Development departments
+SELECT *
+FROM dept_info
+WHERE dept_name 
+	IN ('Sales', 'Development')
+ORDER BY dept_name
+;
