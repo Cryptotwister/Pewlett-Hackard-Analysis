@@ -18,6 +18,7 @@ We need to help Bobby
 By selecting a SUM of all retirees from Retiting Titles table we see that there are about 90000 people who are will be leaving the company soon:
 ![Roles_to_fill](https://user-images.githubusercontent.com/42978221/146706869-fa5bf7ce-f733-4b33-988c-568956b2c75a.png)
 
+That is a very considerable amount of employees to retire.
 
 ### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
