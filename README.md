@@ -9,10 +9,8 @@ We need to help Bobby
 * determine number of employees retiring per title so that the position can be filled soon;
 * look into the current employees to determine if some of them qualify for a mentoring program.
 ## Results:
-* We creates a [retiring_titles table](https://github.com/Cryptotwister/Pewlett-Hackard-Analysis/blob/main/Data/retiring_titles.csv) to find
-*
-*
-*
+* We creates a [Retiring_Titles Table](https://github.com/Cryptotwister/Pewlett-Hackard-Analysis/blob/main/Data/retiring_titles.csv) to find the number of employees retiring within the certain positions, which we saved in CSV file attached.
+* [Mentorship Eligibility Table](https://github.com/Cryptotwister/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibilty.csv) also was created to hold the employees who are eligible to participate in a mentorship program.
 ## Summary:
 
 ### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
