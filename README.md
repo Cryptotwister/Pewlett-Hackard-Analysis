@@ -9,8 +9,7 @@ We need to help Bobby
 * determine number of employees retiring per title so that the position can be filled soon;
 * look into the current employees to determine if some of them qualify for a mentoring program.
 ## Results:
-
-*
+* We creates a [retiring_titles table](https://github.com/Cryptotwister/Pewlett-Hackard-Analysis/blob/main/Data/retiring_titles.csv) to find
 *
 *
 *
