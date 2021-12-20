@@ -15,6 +15,8 @@ We need to help Bobby
 * [Mentorship Eligibility Table](https://github.com/Cryptotwister/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibilty.csv) also was created to hold the employees who are eligible to participate in a mentorship program.
 * ![Mentorship_eligibility Table](https://user-images.githubusercontent.com/42978221/146705016-18cdc224-fdfa-4466-bd56-d4ff82bba88d.png)
 ## Summary:
+![Roles_to_fill](https://user-images.githubusercontent.com/42978221/146706869-fa5bf7ce-f733-4b33-988c-568956b2c75a.png)
+By selecting a SUM of all retirees from Retiting Titles table we see that there are about 90000 people who are will be leaving the company soon.
 
 ### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
