@@ -24,7 +24,7 @@ ORDER BY rt.emp_no ASC, rt.to_date DESC
 ;
 
 -- retrieve the number of employees by their most recent job title who are about to retire..
-SELECT COUNT (ut.emp_no), ut.title
+SELECT ut.title AS positions, COUNT (ut.emp_no) AS retirees
 INTO retiring_titles
 FROM unique_titles AS ut
 GROUP BY ut.title
@@ -48,4 +48,13 @@ INNER JOIN titles AS t
 WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 	AND (de.to_date = '9999-01-01')
 ORDER BY e.emp_no
+;
+
+-- Additional Summary Queries
+SELECT SUM(retirees)
+FROM retiring_titles
+;
+
+SELECT COUNT(*)
+FROM mentorship_eligibilty
 ;
