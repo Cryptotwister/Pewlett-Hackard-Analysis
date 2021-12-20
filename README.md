@@ -19,7 +19,6 @@ By selecting a SUM of all retirees from Retiting Titles table we see that there 
 ![Roles_to_fill](https://user-images.githubusercontent.com/42978221/146706869-fa5bf7ce-f733-4b33-988c-568956b2c75a.png)
 
 That is a very considerable amount of employees to retire.
-
-### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-
-### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+From the Mentorship Eligibility table, we see that there are only 1549 employees who are eligible to participate in a mentorship program. That is a very small number of people to help the company replace those who are retiring.
+To sum up, PH need to come up with a HR strategy to be able to overcome that "tsunami" coming.
+It seems that PH will have to hire a lot of new employees for the vacant roles and develop a mentorship program in a way that current employees will by able to maybe assume multiple roles at the Company.
